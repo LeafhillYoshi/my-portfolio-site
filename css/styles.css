@@ -4,8 +4,6 @@ body {
   background-color: #1e1e1e;
   color: #e0e0e0;
   padding: 2rem;
-  position: relative;
-  z-index: 1;
 }
 
 .hero {
@@ -15,13 +13,15 @@ body {
 
 .hero h1 {
   font-size: 2.5rem;
-  color: #0f5f13;
-  position: relative;
-  z-index: 2;
+  color: #178f1d;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+
 }
 
 .hero p {
-    color: #0f5f13;
+    color: #178f1d;
+    text-shadow: 0 0 10px rgba(0,0,0,0.9);
+
 }
 
 /* Character sheet container */
