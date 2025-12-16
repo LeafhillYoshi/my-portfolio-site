@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jani Lehtimäki</title>
+</head>
+
+<body>
+    <header class="hero">
+        <h1>Jani Lehtimäki</h1>
+        <p>Hobbyist Game Developer | Godot Enthusiast | Prototype Tinkerer</p>
+    </header>
+
+    <section class="character-sheet">
+        <h2>Character Sheet</h2>
+
+        <!-- Basic Info -->
+        <div class="section">
+            <!-- Basic Info + Profile -->
+            <div class="basic-info-wrapper">
+                <div class="profile-photo">
+                    <img src="images/profile.jpg" alt="Jani Lehtimäki">
+                </div>
+
+                <div class="section basic-info">
+                    <h3>Basic Info</h3>
+                    <ul>
+                        <li><strong>Level:</strong> Hobbyist</li>
+                        <li><strong>Experience:</strong> Prototype projects, small games</li>
+                        <li><strong>Preferred Engine:</strong> Godot</li>
+                        <li><strong>Preferred Transportation:</strong> Bicycle</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Attributes -->
+            <div class="section">
+                <h3>Attributes</h3>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>Coding</h3>
+                        <p>8/10</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Design</h3>
+                        <p>6/10</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Creativity</h3>
+                        <p>9/10</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Debugging</h3>
+                        <p>7/10</p>
+                    </div>
+                    <div class="grid-item">
+                        <h3>Rapid Prototyping</h3>
+                        <p>9/10</p>
+                    </div>
+                </div>
+
+                <!-- Skills / Tools -->
+                <div class="section">
+                    <h3>Skills & Tools</h3>
+
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h3>Godot Engine</h3>
+                            <p>GDScript</p>
+                        </div>
+                        <div class="grid-item">
+                            <h3>Unity</h3>
+                            <p>C#</p>
+                        </div>
+                        <div class="grid-item">
+                            <h3>C++</h3>
+                        </div>
+                        <div class="grid-item">
+                            <h3>Python</h3>
+                        </div>
+                        <div class="grid-item">
+                            <h3>Java</h3>
+                        </div>
+                        <div class="grid-item">
+                            <h3>JS</h3>
+                        </div>
+                        <div class="grid-item">
+                            <h3>Version Control</h3>
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inventory / Projects -->
+                <div class="section">
+                    <h3>Projects / Inventory</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <img src="images/prototype.png" alt="Untitled Godot Prototype">
+                            <h4>Untitled Phaser Prototype</h4>
+                            <p class="details">A WIP prototype exploring movement and enemy AI.</p>
+                        </div>
+                        <div class="project-card" onclick="toggleDetails(this)">
+                            <img src="images/enemy_ai.png" alt="Enemy AI Test">
+                            <h4>Enemy AI Test</h4>
+                            <p class="details">Enemy AI Test – Simple turn based combat logic</p>
+                        </div>
+                    </div>
+
+                    <!-- Traits / Abilities -->
+                    <div class="section">
+                        <h3>Traits & Abilities</h3>
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <h3>Quick</h3>
+                                <h3>Iteration</h3>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Experimental</h3>
+                                <h3>Mechanics</h3>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Problem</h3>
+                                <h3>Solver</h3>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Self-</h3>
+                                <h3>taught</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+        <ul class="social-links">
+            <li>
+                <a href="mailto:jani.lehtimaki@example.com" target="_blank">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <script type="module" src="scripts/scripts.js"></script>
+</body>
+
+</html>
